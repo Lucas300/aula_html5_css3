@@ -1,0 +1,82 @@
+<!DOCTYPE html><!--informando os navegadores que essa é uma pagina html5-->
+<html lang="pt-br"><!--inicio do html  e Lingua que o site foi escrita--> 
+   <head>
+        <meta charset="utf-8"><!--para o navegador indentificar cacteres especiais-->
+        <title>Minha página</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Criando um link para importar um arquivo externo que aqui no caso o css-->
+    </head>
+    <nav><!--usado para fazer um menu de navegção-->
+        <p class="menu">Menu</p>
+        <ul><!--permite que crie uma lista desordenada-->
+            <li><a href="#servicos">SERVIÇOS</a></li><!-- <li></li> representa um item da lista-->
+            <li><a href="#clientes">CLIENTES</a></li><!--a tag <A href=""> ela ta criando um link que puxa para o ID la de baixo-->
+            <li><a href="#parceiro">PARCEIROS</a></li>
+            <li><a href="#time">TIME</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>    
+    </nav>
+    <body><!--Corpo-->
+        <h1>Minha página</h1><!--Titulo-->
+        <header> <!--Cabeçalho-->
+            <p> Oferecemos densenvolvimento dos melhores site e apps par asua empresa</p> <!--Parágrafo-->
+        </header>
+        <section id="servicos"><!--seção ,se fosse uma parte da pagina, ex:seção de esporte,de filmes ou de jogo,-->
+            <h2>SERVIÇOS</h2>
+            <p>Oferecemos os melhores serviços de densenvolvimento
+             dos melhores site e apps par asua empresa</p>
+            <div>
+                <img src="img/site.jpg" class="imagem">
+            </div>
+            <div>
+                <img src="img/app.jpg" class="imagem"><!--Adiciona uma imagem através do camaniho do src="" -->>
+            </div>
+         </section>
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>Nossos clientes ficaram muito satisfeitos com nossos serviços</p>
+            <div>
+                <img src="img/cliente.jpg" class="imagem"> <!--width é a largura da imagem-->
+            </div>
+            <div>
+                <img src="img/cliente2.jpg" class="imagem">
+            </div>
+        </section>
+        <section id="parceiro">
+            <h2>PARCEIROS</h2>
+            <p>Nossos Parceiros ajudam a entregar as melhores soluções para nossos clientes</p>
+            <div>
+                <a href="https://digitalinnovation.one/sign-in" target="_blank"><img src="img/parceiro1.jpg" class="imagem"></a> <!--Usamos o target="blank" para abrir o link em uma nova aba do navegador-->
+            </div>
+            <div>
+                <a href="https://br.sonychannel.com/series/shark-tank-brasil" target="_blank"><img src="img/parceiro2.jpg" class="imagem"></a>
+            </div>
+        </section>
+        <section id="time">
+            <h2>TIME</h2>
+            <p>Nosso time trabalha com muita qualidade e 
+            empenho para entregar muita qualidade para nossos clientes</p>
+            <div>
+                <img src="img/time2.jpg" class="imagem">
+            </div>
+            <div>
+                <img src="img/time.jpg" class="imagem">
+            </div>
+        </section>
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato com a nossa equipe</p>
+            <div>
+                <img src="img/email.png" class="logo">
+                <p><a href="mailto:ludaniel.sd@gmail.com">Ludaniel.sd@gmail.com</a></p> <!--(mailto:) no HREF cria um link para o meu email -->
+            </div>
+            <div>
+                <img src="img/fone.jpg" class="logo">
+                <p><a href="tel:1140028922">(11)4002-8922 </a></p> <!--Quando se usa o atributo tel , ele cria um link que ira preparar uma ligação para esse numero -->
+            </div>
+        </section>
+        <footer>  <!--Rodpé-->
+            <p>Desenvolvido por lucas Daniel</p><!--parágrafo-->
+        </footer>
+        <p><p></p>
+    </body>
+</html>

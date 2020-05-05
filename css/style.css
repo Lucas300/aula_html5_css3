@@ -1,0 +1,48 @@
+/*
+!Quando se usa o elemento sem a class ou o ID 
+Ele modifica todas as linhas que tiverem aquele elemento!
+
+Agr quando se usa  .class    ele modificara só os elemntos que tivem com aquela class
+
+Quando tiver #ID  ele modificará todos os elementos que tiverem esse ID.
+
+*/
+
+
+body{
+    background-color:#7c72dde1; /*definindo a cor de fundo do corpo*/
+    margin-left: 60px;          /*fazendo um espaçamento a esquerda*/
+    margin-right:100;           /*fazendo um espaçamento a direita */
+}
+header{
+    margin-top:60px;            /* fazendo um espaçamento no topo do cabeçalho */
+}
+
+h1{
+    color:rgb(240, 15, 15);   /*Definindo a cor do Título*/
+    font-family:ArialFranklin Gothic; /*Definindo a font do título*/
+    font-size: 40px;            /*Definindo o tamanho da fonte*/
+}
+img{
+    margin-bottom: 30px;        /*Definindo o espaçamento da margem de baixo*/
+}
+p{
+    font-size: 18px;             /*Definindo o tamnho da fonte*/
+    color:rgb(245, 245, 245);   /*Definindo a cor do parágrafo*/
+}
+.imagem{
+    width: 600px;               /*Definindo a largura da imagem pela class*/
+}
+
+.menu{
+    color:black;             /*Definindo a cor do menu pela class*/
+    font-family:roboto;         /*Definindo a font do menu pela class*/
+    font-size: 40px;            /*Definindo o tamanho da font pela class*/
+}
+.logo{
+    width: 30px;                /*Definindo a largura da imagem atraves da class */
+    margin-bottom: 5px;         /*Definindo o espaçamento da  margem de baixo */
+}
+footer{
+    margin-bottom: 40px; /*Definindo o espaçamento da  margem de baixo pela class*/
+}
